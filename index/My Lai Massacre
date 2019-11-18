@@ -11,7 +11,7 @@
             margin:auto;
             right:10%;
             border-style:none;
-            font-size:18px;
+            font-size:12px;
             text-align:left;
             top:25%;
             width:75%;
