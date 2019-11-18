@@ -123,7 +123,7 @@ window.onclick = function(event) {
     <div class="dropdown">
   <button class="dropbtn" class="b">Menu</button>
   <div class="dropdown-content">
-    <a href="#">Gale</a>
+    <a href="https://go.gale.com/ps/retrieve.do?tabID=T003&resultListType=RESULT_LIST&searchResultsType=SingleTab&searchType=BasicSearchForm&currentPosition=1&docId=GALE%7CA407955255&docType=Article&sort=Relevance&contentSegment=ZAHB-MOD1&prodId=GPS&contentSet=GALE%7CA407955255&searchId=R1&userGroupName=carmelhs&inPS=true">Gale</a>
     <a href="#">Sources</a>
   </div>
 </div>
