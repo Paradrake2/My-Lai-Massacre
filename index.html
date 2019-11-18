@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        body {
+            background-image: url('https://timedotcom.files.wordpress.com/2018/03/ronald-haeberle-my-lai-vietnam-pictures-1.jpg?quality=85');
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+        table {
+            position:fixed;
+            margin:auto;
+            right:10%;
+            border-style:none;
+            font-size:18px;
+            text-align:left;
+            top:15%;
+            width:75%;
+            text-align:left,top;
+        }
+        th {
+            text-align:center;
+            
+        }
+        td {
+            width:300px;
+            border:gray;
+            background-color:white;
+            height:relative;
+            padding:5px ;
+        }
+        .navbar {
+            width:100%;
+            left:0px;
+            background-color:black;
+            height:50px;
+            color:white;
+            position:fixed;
+            top:0;
+        }
+        .navbar .a {
+            display:block;
+            color:white;
+            padding:10px;
+            width:relative;
+            height:30px;
+            float:left;
+            font-size:17px;
+        }
+        .navbar .a:hover {
+            background-color:gray;
+        }
+        .bottombar {
+            width:100%;
+            left:0px;
+            bottom:0;
+            background-color:black;
+            height:60px;
+            position:fixed;
+        }
+        .dropbtn {
+            background-color: black;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+}
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {background-color: #ddd;}
+
+        .dropdown:hover .dropdown-content {display: block;}
+
+        .dropdown:hover .dropbtn {
+            background-color: white;
+            color:black;    
+        }
+        .show {display: block;}
+        .img {
+            width:25px;
+            height:25px;
+        }
+    </style>
+    <script>
+        function myFunction() {
+  alert("Hello! Up in the top left is a menu you can use to go through the page. You can click on it and it will pull up a menu. From there, you can go wherever you want on this page. Have fun!");
+}
+function myFunction1() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+    </script>
+    <div class="navbar">
+    <div class="dropdown">
+  <button class="dropbtn" class="b">Menu</button>
+  <div class="dropdown-content">
+    <a href="https://go.gale.com/ps/retrieve.do?tabID=T003&resultListType=RESULT_LIST&searchResultsType=SingleTab&searchType=BasicSearchForm&currentPosition=1&docId=GALE%7CA407955255&docType=Article&sort=Relevance&contentSegment=ZAHB-MOD1&prodId=GPS&contentSet=GALE%7CA407955255&searchId=R1&userGroupName=carmelhs&inPS=true">Gale</a>
+    <a href="#">Sources</a>
+  </div>
+</div>
+    </div>
+        </div>
+        <button onclick="myFunction()" style="float:left; top:50%;">Help Button</button>
+    </div>
+    <div class="bottombar">
+        Hello there :)
+    </div>
+    <body>
+        <table>
+            <th colspan="100%"><font size="7">The My Lai Massacre</font></th>
+            <tr>
+                <td class="1"><font size="5">Number Killed</font></td>
+                <td class="1"><font size="5">Why It happened</font></td>
+                <td class="1"><font size="5">Who Was Involved</font></td>
+                <td class="1"><font size="5">Reprecussions</font></td>
+                <td class="1"><font size="5">Was the My Lai massacre accurately represented in <i>In the Lake of the Woods</i>?</font></td>
+            </tr>
+            <tr>
+                <td>504 women, children, and old men were brutally slaughtered during the My Lai massacre. Young women were found raped and mutilated before they had been killed. </td>
+                <td>Lieutenant William Calley ordered the soldiers of Charlie Company to open fire on the peaceful village of My Lai. He was later charged for the murder of 22 unarmed villagers and sentenced to life in prison, but was released in 1974 due to people thinking he was a scapegoat.</td>
+                <td>Company C, 1st Battalion, 20th Infantry Regiment and Company B, 4th Battalion, 3rd Infantry Regiment, 11th Brigade, 23rd (Americal) Infantry Division were the units responsible for the My Lai massacre. Together, the 2 companies killed about 500 unarmed Vietnamese villagers.</td>
+                <td>The world was shocked at the atrocities commited at My Lai. Morale among American Troops dropped to all time lows and the anti-war protests intensified. </td>
+                <td>No. The My Lai massacre was a horrible event that was just glossed over in <i>In the Lake of the Woods</i>. </td>
+            </tr>
+        </table>
+    </body>
+</html>
