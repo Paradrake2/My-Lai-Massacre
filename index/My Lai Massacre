@@ -145,11 +145,11 @@ window.onclick = function(event) {
                 <td class="1"><font size="5">Was the My Lai massacre accurately represented in <i>In the Lake of the Woods</i>?</font></td>
             </tr>
             <tr>
-                <td>504 women, children, and old men were brutally slaughtered during the My Lai massacre. Young women were found raped and mutilated before they had been killed. </td>
-                <td>Lieutenant William Calley ordered the soldiers of Charlie Company to open fire on the peaceful village of My Lai. He was later charged for the murder of 22 unarmed villagers and sentenced to life in prison, but was released in 1974 due to people thinking he was a scapegoat. Spoiler alert: he wasn't a scapegoat and was, in fact, responsible for the deaths of the villagers.</td>
-                <td>Company C, 1st Battalion, 20th Infantry Regiment and Company B, 4th Battalion, 3rd Infantry Regiment, 11th Brigade, 23rd (Americal) Infantry Division were the units responsible for the My Lai massacre. Together, the 2 companies killed about 500 unarmed Vietnamese villagers.</td>
-                <td>The world was shocked at the atrocities commited at My Lai. Morale among American Troops dropped to all time lows and the anti-war protests intensified. </td>
-                <td>No. The My Lai massacre was a horrible event that was just glossed over in <i>In the Lake of the Woods</i>. </td>
+                <td><font size="12">504 women, children, and old men were brutally slaughtered during the My Lai massacre. Young women were found raped and mutilated before they had been killed.</font> </td>
+                <td><font size="12">Lieutenant William Calley ordered the soldiers of Charlie Company to open fire on the peaceful village of My Lai. He was later charged for the murder of 22 unarmed villagers and sentenced to life in prison, but was released in 1974 due to people thinking he was a scapegoat.</font></td>
+                <td><font size="12">Company C, 1st Battalion, 20th Infantry Regiment and Company B, 4th Battalion, 3rd Infantry Regiment, 11th Brigade, 23rd (Americal) Infantry Division were the units responsible for the My Lai massacre. Together, the 2 companies killed about 500 unarmed Vietnamese villagers.</font></td>
+                <td><font size="12">The world was shocked at the atrocities commited at My Lai. Morale among American Troops dropped to all time lows and the anti-war protests intensified.</font> </td>
+                <td><font size="12">No. The My Lai massacre was a horrible event that was just glossed over in <i>In the Lake of the Woods</i>.</font> </td>
             </tr>
         </table>
     </body>
